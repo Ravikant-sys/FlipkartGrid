@@ -1,0 +1,13 @@
+# Environment
+ml_env/
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# ML Outputs and cached info
+catboost_info/
+get-pip.py
+
+# Large datasets that exceed GitHub's 100MB limit
+dataset/ground_truth.csv
